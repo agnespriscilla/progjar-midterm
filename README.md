@@ -1,4 +1,4 @@
-# TCP File Server — Network Programming Midterm Exam
+# TCP File Server Network Programming Midterm Exam
 
 > Pemrograman Jaringan (Network Programming) · ITS Surabaya · 2025
 
@@ -15,7 +15,7 @@ A concurrent TCP file server built from scratch in Python, supporting upload, do
 
 This project implements a file server that allows clients to transfer files over raw TCP sockets using a custom text-based protocol. Files are encoded in **Base64** for transmission, and all responses are returned as **JSON**.
 
-Two server implementations are provided — thread pool and process pool — and their performance is benchmarked under concurrent load using a dedicated stress test client.
+Two server implementations are provided thread pool and process pool and their performance is benchmarked under concurrent load using a dedicated stress test client.
 
 ---
 
@@ -127,12 +127,12 @@ The full test log is available in `stress_test.log`.
 
 ## Key Concepts Covered
 
-- **TCP socket programming** — raw socket API, connection handling, pool patterns
-- **Custom protocol design** — text commands with JSON responses
-- **Base64 file encoding** — safe binary transfer over text protocol
-- **Concurrency models** — thread pool vs process pool, tradeoffs under I/O-bound and CPU-bound load
-- **Performance benchmarking** — stress testing with concurrent clients, results exported to CSV
-- **Layered architecture** — clean separation of protocol parsing (`FileProtocol`) and business logic (`FileInterface`)
+- **TCP socket programming** : raw socket API, connection handling, pool patterns
+- **Custom protocol design** : text commands with JSON responses
+- **Base64 file encoding** : safe binary transfer over text protocol
+- **Concurrency models** : thread pool vs process pool, tradeoffs under I/O-bound and CPU-bound load
+- **Performance benchmarking** : stress testing with concurrent clients, results exported to CSV
+- **Layered architecture** : clean separation of protocol parsing (`FileProtocol`) and business logic (`FileInterface`)
 
 ---
 
@@ -147,6 +147,6 @@ This is the **Midterm Exam** for the *Pemrograman Jaringan* (Network Programming
 **Agnes Priscilla Sekartaji Hadikusuma**  
 S1 Teknik Informatika · Institut Teknologi Sepuluh Nopember (ITS) Surabaya
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/agnespriscilla)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/agnespriscilla33)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/agnespriscilla)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:agnes.priscilla33@gmail.com)
